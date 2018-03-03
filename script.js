@@ -19,5 +19,9 @@ function applyHtml(stream) {
   })
 }
 
-applyHtml('cyanideplaysgames')
-applyHtml('shroud')
+applyHtml('freecodecamp');
+applyHtml('shroud');
+applyHtml('sovietwomble');
+applyHtml('sacriel');
+applyHtml('noobs2ninjas')
+applyHtml('storbeck');
