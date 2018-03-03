@@ -35,13 +35,18 @@ body {
 
 #container div {
   height: 300px;
-  width: 70%;
+  width: 90%;
   background-color: #eee;
   margin: 0 auto;
   box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2); 
   text-align: center;
 }
- #container div a {
-   text-decoration: none;
-   color: black;
- }
+
+#container div img {
+  border-radius: 3px;
+}
+
+#container div a {
+ text-decoration: none;
+ color: black;
+}

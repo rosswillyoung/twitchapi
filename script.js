@@ -11,7 +11,7 @@ function applyHtml(stream) {
             <a href='https://www.twitch.tv/'` + stream + `>
             <img src='` + data.stream.preview.medium + `' height='60%' width='100%'>
             <h3>` + stream.toUpperCase() + `
-            <h5>GAME = ` + data.stream.game + `</h5>
+            <h5>` + data.stream.game + `</h5>
             </a>
           `)
         }
