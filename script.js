@@ -8,7 +8,7 @@ function applyHtml(stream) {
       if (data.stream !== null){
         //console.log(data);
         $('#' + stream).html(`
-            <a href='https://www.twitch.tv/'` + stream + `>
+            <a href='https://www.twitch.tv/` + stream + `'>
             <img src='` + data.stream.preview.medium + `' height='60%' width='100%'>
             <h3>` + stream.toUpperCase() + `
             <h5>` + data.stream.game + `</h5>
